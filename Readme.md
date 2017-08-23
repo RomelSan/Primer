@@ -70,3 +70,9 @@ Finally the code calls the `string.Join` method to merge the factors (now string
 
 ### Credits
 * Rod Stephens - [website](http://csharphelper.com/blog/rod/)
+
+### Contact
+Twitter: [@RomelSan](http://www.twitter.com/RomelSan)
+
+### License
+MIT
