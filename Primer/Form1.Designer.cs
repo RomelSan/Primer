@@ -35,6 +35,7 @@
             this.textBox2_result = new System.Windows.Forms.TextBox();
             this.label2_result = new System.Windows.Forms.Label();
             this.label3_timer = new System.Windows.Forms.Label();
+            this.button2_checkPrime = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1_number
@@ -91,11 +92,22 @@
             this.label3_timer.TabIndex = 5;
             this.label3_timer.Text = "Time Elapsed: 00:00:00.0000000";
             // 
+            // button2_checkPrime
+            // 
+            this.button2_checkPrime.Location = new System.Drawing.Point(105, 51);
+            this.button2_checkPrime.Name = "button2_checkPrime";
+            this.button2_checkPrime.Size = new System.Drawing.Size(75, 23);
+            this.button2_checkPrime.TabIndex = 6;
+            this.button2_checkPrime.Text = "Is it prime?";
+            this.button2_checkPrime.UseVisualStyleBackColor = true;
+            this.button2_checkPrime.Click += new System.EventHandler(this.button2_checkPrime_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(405, 144);
+            this.Controls.Add(this.button2_checkPrime);
             this.Controls.Add(this.label3_timer);
             this.Controls.Add(this.label2_result);
             this.Controls.Add(this.textBox2_result);
@@ -120,6 +132,7 @@
         private System.Windows.Forms.TextBox textBox2_result;
         private System.Windows.Forms.Label label2_result;
         private System.Windows.Forms.Label label3_timer;
+        private System.Windows.Forms.Button button2_checkPrime;
     }
 }
 

@@ -2,7 +2,7 @@
 Find a number’s prime factors in C#
 
 ### Requires
-* Net Framework 4.5
+* Net Framework 4.5.2
 * Built on Visual Studio 2015
 * Tested on Windows 10
 
